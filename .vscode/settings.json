@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "E:/learnt/postgraduate/Deformable DETR/self-write",
+    ]
+}

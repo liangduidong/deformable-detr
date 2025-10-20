@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: detr_main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/detr_main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Deformable_DETR_main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/deformable_detr_main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Python: encoder",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/DETR_models/encoder.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Python: decoder",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/DETR_models/decoder.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Python: detr",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/DETR_models/DETR.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+
+        {
+            "name": "Run loss",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/DETR_models/loss.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+        },
+
+        
+    ]
+}
